@@ -1,0 +1,34 @@
+*{
+    text-align: center;
+}
+h1{
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 30px;
+
+}
+/* solid |double |dashed */
+/*cizgi kalinligi ,cizgi turu,renk*/
+
+.tablo{
+    border: 4px double grey;
+    border-collapse: collapse;
+     width: 100%; /*yuzdelik dilim sayfaya gore hesaplanir */
+margin-left:auto ; /*sol ve sagdan otomatik bosluk koyarak nesneler ortaya hizalanabilir*/
+margin-right: auto;
+
+    }
+/*
+birden fazla ayn istillendirme yapilacaksa virgulle ayyri olarak yazilabilir*/
+th,td{
+    border: 4px solid grey;
+}
+th{
+    background-color: yellowgreen;
+}
+tr:hover{
+    background-color: rgb(rgb(31, 47, 190), green, blue);
+}
+tr:nth-child(even){
+    background-color: burlywood;
+}
